@@ -1,0 +1,8 @@
+services:
+  - type: static
+    name: gym-tracker
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache
