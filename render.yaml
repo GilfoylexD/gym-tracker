@@ -1,6 +1,7 @@
 services:
-  - type: static
+  - type: web
     name: gym-tracker
+    runtime: static
     staticPublishPath: .
     headers:
       - path: /*
